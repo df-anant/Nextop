@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -260,8 +261,15 @@
         }
 
         @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.8; }
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.8;
+            }
         }
 
         /* Stats Section */
@@ -772,8 +780,63 @@
                 grid-template-columns: 1fr;
             }
         }
+
+        /* Add this to your <style> section */
+        @keyframes emoji-bounce {
+
+            0%,
+            100% {
+                transform: translateY(0) scale(1);
+            }
+
+            20% {
+                transform: translateY(-18px) scale(1.15);
+            }
+
+            40% {
+                transform: translateY(0) scale(1);
+            }
+
+            60% {
+                transform: translateY(-8px) scale(1.08);
+            }
+
+            80% {
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        .feature-icon {
+            animation: emoji-bounce 2s infinite;
+            transition: transform 0.2s;
+        }
+
+        .features-grid .feature-card:nth-child(1) .feature-icon {
+            animation-delay: 0s;
+        }
+
+        .features-grid .feature-card:nth-child(2) .feature-icon {
+            animation-delay: 0.2s;
+        }
+
+        .features-grid .feature-card:nth-child(3) .feature-icon {
+            animation-delay: 0.4s;
+        }
+
+        .features-grid .feature-card:nth-child(4) .feature-icon {
+            animation-delay: 0.6s;
+        }
+
+        .features-grid .feature-card:nth-child(5) .feature-icon {
+            animation-delay: 0.8s;
+        }
+
+        .features-grid .feature-card:nth-child(6) .feature-icon {
+            animation-delay: 1s;
+        }
     </style>
 </head>
+
 <body>
     <!-- Navigation -->
     <nav>
@@ -786,7 +849,8 @@
                 <a href="#features">Features</a>
                 <a href="#how-it-works">How It Works</a>
                 <a href="#for-professionals">For Professionals</a>
-                <a href="#for-business">For Business</a>
+                <a href="/recruiters">For Recruiters</a>
+                <a href="/community">Hubs</a>
                 <a href="/support">Support</a>
             </div>
             <div class="nav-auth">
@@ -801,7 +865,8 @@
         <div class="hero-content">
             <div class="hero-text">
                 <h1>The Professional Ecosystem Built on <span class="highlight">Authenticity</span></h1>
-                <p>Connect with verified peers for Mentorship, Collaboration, and Opportunity Discovery—all through high-signal video profiles.</p>
+                <p>Connect with verified peers for Mentorship, Collaboration, and Opportunity Discovery—all through
+                    high-signal video profiles.</p>
                 <div class="hero-cta">
                     <a href="#signup" class="cta-primary">Download Nextop & Find Your Mentor</a>
                     <a href="#how-it-works" class="cta-secondary">See How It Works</a>
@@ -844,8 +909,9 @@
     <section id="features" class="features-section">
         <div class="container">
             <h2 class="section-title">Static is History. <span class="highlight">Connection is Video-First</span></h2>
-            <p class="section-subtitle">Your 30-second video profile isn't just an introduction—it's your professional story, your authenticity, and your opportunity to connect on a human level.</p>
-            
+            <p class="section-subtitle">Your 30-second video profile isn't just an introduction—it's your professional
+                story, your authenticity, and your opportunity to connect on a human level.</p>
+
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon">🎥</div>
@@ -855,7 +921,8 @@
                 <div class="feature-card">
                     <div class="feature-icon">✓</div>
                     <h3>Verified Profiles</h3>
-                    <p>Every connection is genuine. Our verification ensures you're networking with real professionals.</p>
+                    <p>Every connection is genuine. Our verification ensures you're networking with real professionals.
+                    </p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">🎯</div>
@@ -875,7 +942,8 @@
                 <div class="feature-card">
                     <div class="feature-icon">💬</div>
                     <h3>Seamless Communication</h3>
-                    <p>Built-in messaging, video calls, and scheduling tools to nurture your professional relationships.</p>
+                    <p>Built-in messaging, video calls, and scheduling tools to nurture your professional relationships.
+                    </p>
                 </div>
             </div>
         </div>
@@ -885,8 +953,9 @@
     <section class="intent-section">
         <div class="container">
             <h2 class="section-title">High-Signal Matching. <span class="highlight">Zero Noise.</span></h2>
-            <p class="section-subtitle">Define your intent, and let our AI connect you with the right people at the right time.</p>
-            
+            <p class="section-subtitle">Define your intent, and let our AI connect you with the right people at the
+                right time.</p>
+
             <div class="intent-visual">
                 <div class="intent-path">
                     <div class="intent-circle">Mentorship</div>
@@ -915,7 +984,7 @@
     <section id="how-it-works" class="how-it-works">
         <div class="container">
             <h2 class="section-title">Get Started in <span class="highlight">4 Simple Steps</span></h2>
-            
+
             <div class="steps-container">
                 <div class="step">
                     <div class="step-number">1</div>
@@ -945,10 +1014,11 @@
     <section id="testimonials" class="testimonials">
         <div class="container">
             <h2 class="section-title">Success Stories from Our <span class="highlight">Community</span></h2>
-            
+
             <div class="testimonials-grid">
                 <div class="testimonial-card">
-                    <p class="testimonial-text">"I found my mentor within a week of joining Nextop. The video profiles made it so easy to connect with someone who truly understood my career goals."</p>
+                    <p class="testimonial-text">"I found my mentor within a week of joining Nextop. The video profiles
+                        made it so easy to connect with someone who truly understood my career goals."</p>
                     <div class="testimonial-author">
                         <div class="author-avatar">SK</div>
                         <div class="author-info">
@@ -958,7 +1028,8 @@
                     </div>
                 </div>
                 <div class="testimonial-card">
-                    <p class="testimonial-text">"Nextop changed how I network. Instead of cold LinkedIn messages, I'm having real conversations with people who share my passion for sustainable tech."</p>
+                    <p class="testimonial-text">"Nextop changed how I network. Instead of cold LinkedIn messages, I'm
+                        having real conversations with people who share my passion for sustainable tech."</p>
                     <div class="testimonial-author">
                         <div class="author-avatar">MP</div>
                         <div class="author-info">
@@ -968,7 +1039,8 @@
                     </div>
                 </div>
                 <div class="testimonial-card">
-                    <p class="testimonial-text">"As a hiring manager, Nextop has transformed our recruitment. We're connecting with candidates who are pre-vetted and genuinely interested in our mission."</p>
+                    <p class="testimonial-text">"As a hiring manager, Nextop has transformed our recruitment. We're
+                        connecting with candidates who are pre-vetted and genuinely interested in our mission."</p>
                     <div class="testimonial-author">
                         <div class="author-avatar">AJ</div>
                         <div class="author-info">
