@@ -908,7 +908,7 @@
     <!-- Features Section -->
     <section id="features" class="features-section">
         <div class="container">
-            <h2 class="section-title">Static is History. <span class="highlight">Connection is Video-First</span></h2>
+            <h2 class="section-title">Don't just show your profile. <span class="highlight">Show your presence.</span></h2>
             <p class="section-subtitle">Your 30-second video profile isn't just an introduction—it's your professional
                 story, your authenticity, and your opportunity to connect on a human level.</p>
 

@@ -28,7 +28,7 @@
         }
 
         .bg-navy {
-            background-color: var(--color-navy);
+            background-color: var(--color-teal);
         }
 
         .text-navy {
@@ -92,7 +92,7 @@
 
         <div class="max-w-7xl mx-auto flex justify-between items-center">
 
-            <h1 class="text-2xl font-extrabold text-navy">NEXTOP <span class="text-teal">FOR RECRUITERS</span></h1>
+            <h1 class="text-2xl font-extrabold text-teal">NEXTOP <span class="text-navy">FOR RECRUITERS</span></h1>
 
             <a href="/home" class="back-home-btn text-sm font-semibold text-navy hover:text-teal transition">Back to
                 Home</a>
@@ -113,23 +113,17 @@
 
             <h2 class="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
 
-                Stop Recruiting. <br class="sm:hidden"> Start <span class="text-teal">Engaging</span>.
+                Stop <span class="text-navy">Recruiting</span>. <br class="sm:hidden"> Start <span class="text-navy">Engaging</span>.
 
             </h2>
 
-            <p class="text-gray-300 text-xl md:text-2xl max-w-3xl mx-auto mb-10">
+            <p class="text-white-300 text-xl md:text-2xl max-w-3xl mx-auto mb-10">
 
                 Move beyond the resume wall. Nextop provides immediate, authentic insights into cultural fit and
                 communication—before the interview.
 
             </p>
 
-            <a href="#demo"
-                class="inline-block bg-teal text-white font-bold py-3 px-8 rounded-xl shadow-lg hover:shadow-2xl hover:bg-opacity-90 transition transform hover:scale-105 duration-300">
-
-                Request Live Demo & Pricing
-
-            </a>
 
         </div>
 
@@ -368,34 +362,13 @@
 
             <h3 class="text-3xl md:text-4xl font-bold mb-4">Ready to Hire Better?</h3>
 
-            <p class="text-gray-300 text-xl mb-10">We offer flexible Enterprise Seat Subscriptions and tailored
+            <p class="text-white-300 text-xl mb-10">We offer flexible Enterprise Seat Subscriptions and tailored
                 Sponsorship Packages for maximum engagement.</p>
 
 
 
             <div class="flex flex-col md:flex-row gap-8 justify-center">
 
-                <!-- Option 1: Recruiter Seats -->
-
-                <div class="bg-white text-navy p-8 rounded-xl shadow-2xl w-full md:w-1/2">
-
-                    <h4 class="text-2xl font-bold text-teal mb-3">Talent Discovery Suite (Seats)</h4>
-
-                    <p class="text-gray-600 mb-6">Gain access to our full AI matching suite and video profiles with
-                        dedicated recruiter seats for your team.</p>
-
-                    <a href="#"
-                        class="inline-block bg-navy text-white font-bold py-3 px-8 rounded-xl hover:bg-opacity-90 transition transform hover:scale-105 duration-300">
-
-                        Get Seat Pricing
-
-                    </a>
-
-                </div>
-
-
-
-                <!-- Option 2: Event Sponsorship -->
 
                 <div class="bg-white text-navy p-8 rounded-xl shadow-2xl w-full md:w-1/2">
 
